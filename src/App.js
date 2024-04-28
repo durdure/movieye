@@ -5,12 +5,12 @@ import React,  { useState} from "react"
 
 function App() {
   return (
-   <>
     <div>
       <Header />
-      <a href="/">HomePage</a>
+      <h2>App</h2>
+      <a href="./">HomePage</a>
+      <br/>
     </div>
-   </>
   )
   
 }

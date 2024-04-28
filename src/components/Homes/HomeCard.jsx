@@ -1,10 +1,9 @@
 import React from "react";
 
-const HomeCard = ({ home }) => {
+const HomeCard = () => {
   return (
     <div>
-      <h2>{home.title}</h2>
-      <p>{home.description}</p>
+      <h2>HomeCard</h2>
     </div>
   );
 }

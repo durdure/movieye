@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import HomePages from './home/HomePage';
+import HomePage from './home/HomePage';
 
 
 const router = createBrowserRouter(
@@ -14,7 +14,7 @@ const router = createBrowserRouter(
     },
     {
       path: '/home',
-      element: <HomePages />,
+      element: <HomePage />,
     },
   ]
 );
