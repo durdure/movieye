@@ -1,12 +1,16 @@
 import "./App.css"
-import { BrowserRouter as Router } from "react-router-dom"
 import Header from "./components/header/Header"
+import React,  { useState} from "react"
+
 
 function App() {
   return (
-   <Router>
-      <Header/>
-   </Router>
+   <>
+    <div>
+      <Header />
+      <a href="/">HomePage</a>
+    </div>
+   </>
   )
   
 }
