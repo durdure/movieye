@@ -1,5 +1,5 @@
 Header{
-    height: 12vh;
+    height: 10vh;
     line-height: 10vh;
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.0) );
     color: #fff;
@@ -62,7 +62,7 @@ header button{
       padding: 0 50px;
     }
     .toggle {
-      display: block;
+      display: inline-block;
       position: absolute;
       top: 0;
       bottom: 0;
