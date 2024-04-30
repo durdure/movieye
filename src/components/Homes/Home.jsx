@@ -1,7 +1,7 @@
 import React from "react";
 import HomeCard from "./HomeCard";
 
-const Home = (items) => {
+const Home = ({items}) => {
     return (
         <div className="homeContainer">
            { items.map((item) => (   
