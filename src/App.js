@@ -1,15 +1,28 @@
 import "./App.css"
-import Header from "./components/header/Header"
-import React,  { useState} from "react"
+import React from "react"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./home/HomePage";
+import Home from "./components/Homes/Homes";
+import Header from "./components/header/Header";
 
+const router= createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <HomePage />,
+    },
+    {
+      path: '/home',
+      element: <Home />,
+    }
+  ]
+);
 
 function App() {
   return (
     <div>
-      <Header />
-      <h2>App</h2>
-      <a href="./">HomePage</a>
-      <br/>
+       <Header />
+      <RouterProvider router={router}/>
     </div>
   )
   

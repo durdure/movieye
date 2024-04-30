@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Homes from "../components/Homes/Homes";
+
+//styles
+import "./HomePages.css";
 
 
 const HomePages = () => {
+    
     return (
         <>
-        <Homes/>
+          <Homes/>
         </>
     );
     }

@@ -1,9 +1,12 @@
 import React from "react";
+import HomeCard from "./HomeCard";
 
-const Home = ({ home }) => {
+const Home = (items) => {
     return (
-        <div>
-        <h2>home</h2>
+        <div className="homeContainer">
+           { items.map((item) => (   
+           <HomeCard key={item.id} item={item}  /> 
+           ))}
         </div>
     );
     }

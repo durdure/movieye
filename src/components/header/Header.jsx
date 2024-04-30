@@ -14,22 +14,22 @@ const Header = () => {
             </div>
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
-                <a href='/'>Home</a>
+                <a href='/home'>Home</a>
               </li>
               <li>
-                <a href='/'>Series</a>
+                <a href='/series'>Series</a>
               </li>
               <li>
-                <a href='/'>Movies</a>
+                <a href='/movies'>Movies</a>
               </li>
               <li>
-                <a href='/'>Pages</a>
+                <a href='/pages'>Pages</a>
               </li>
               <li>
-                <a href='/'>Pricing</a>
+                <a href='/pricing'>Pricing</a>
               </li>
               <li>
-                <a href='/'>Contact</a>
+                <a href='/contact'>Contact</a>
               </li>
             </ul>
             <button className='toggle' onClick={() => setMobile(!Mobile)}>

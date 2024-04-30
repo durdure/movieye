@@ -1,10 +1,18 @@
-import React from "react";
+import React,  { useState } from "react";
+import { homeData } from "../../dummyData"
+
 
 const Home = ({ home }) => {    
+    const [items, setItems] = useState( homeData )
     return (
-        <div>
-        <p>Duresa</p>
+        <>
+        <section className="home">
+            <Home items= { items}/>
+        </section>
+        <div className="margin">
+            
         </div>
+        </>
     );
     }
 

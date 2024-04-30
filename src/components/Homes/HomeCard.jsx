@@ -1,10 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Home from "./Homes";
 
-const HomeCard = () => {
+const HomeCard = ({item : {id, cover, name, rating, time, desc, starring, genres, tags, vedio}}) => {
   return (
-    <div>
-      <h2>HomeCard</h2>
+   <>
+   <div className="box">
+    <div className="coverImage">
+        <img src={cover} alt="cover" />
     </div>
+   </div>
+   </>
   );
 }
 
