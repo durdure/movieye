@@ -12,45 +12,6 @@ export const homeData = [
       video: "../video/video1.mp4",
       date: "20-Jan-1997",
     },
-    // {
-    //   id: 2,
-    //   name: "skull island",
-    //   rating: 4.6,
-    //   time: "2hr : 22mins",
-    //   desc: "The island, like its inhabitants, is wholly fictional. Kong's island home in the Pacific makes its first appearance, along with Kong himself, in the 1933 film King Kong. ",
-    //   starring: "Brenda Chapman, Jeff Nathanson",
-    //   genres: "Adventures",
-    //   tags: "Adventures,Animation,Family",
-    //   cover: "./components/header/logo512.png",
-    //   video: "../video/video2.mp4",
-    //   date: "10-JUL-2021",
-    // },
-    // {
-    //   id: 3,
-    //   name: "Pirates Sea",
-    //   rating: 4.8,
-    //   time: "2hr : 22mins",
-    //   desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
-    //   starring: "James Chinlund, Jeff Nathanson",
-    //   genres: "Adventures",
-    //   tags: "Adventures,Action ",
-    //   cover: "./components/header/logo512.png",
-    //   video: "../video/video3.mp4",
-    //   date: "20-FEB-2010",
-    // },
-    // {
-    //   id: 4,
-    //   name: "Sand Dust",
-    //   rating: 4.9,
-    //   time: "2hr : 22mins",
-    //   desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
-    //   starring: "Karen Gilchrist, James Earl Jones",
-    //   genres: "Action",
-    //   tags: "Action, Adventures, Horror",
-    //   cover:"./components/header/logo512.png",
-    //   video: "../video/video4.mp4",
-    //   date: "12-Aug-2015",
-    // },
   ]
   export const upcome = [
     {
@@ -59,62 +20,6 @@ export const homeData = [
       name: "My office Boss",
       time: "2hr : 38mins",
     },
-//     {
-//       id: 2,
-//       cover: "./components/header/logo512.png",
-//       name: "Shadowe",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 3,
-//       cover: "./components/header/logo512.png",
-//       name: "Another Danger",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 4,
-//       cover:"./components/header/logo512.png",
-//       name: "One Man Army",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 5,
-//       cover:"./components/header/logo512.png",
-//       name: "Jumbo Queen",
-//       time: "2hr : 38mins",
-//     },
-//   ]
-//   export const latest = [
-//     {
-//       id: 1,
-//       cover:"./components/header/logo512.png",
-//       name: "King of Jungle",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 2,
-//       cover: "./components/header/logo512.png",
-//       name: "The illusion",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 3,
-//       cover: "./components/header/logo512.png",
-//       name: "Latest Movie",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 4,
-//       cover: "./components/header/logo512.png",
-//       name: "Latest two",
-//       time: "2hr : 38mins",
-//     },
-//     {
-//       id: 5,
-//       cover: "./components/header/logo512.png",
-//       name: "Latest Three",
-//       time: "2hr : 38mins",
-//     },
   ]
   
   export const trending = [
@@ -130,33 +35,8 @@ export const homeData = [
       cover:"./components/header/logo512.png",
       date: "20-Jan-1997",
     }
+  ]
 
-]
-//     {
-//       id: 2,
-//       name: "The Great Emperor",
-//       rating: 4.6,
-//       time: "2hr : 22mins",
-//       desc: "The island, like its inhabitants, is wholly fictional. Kong's island home in the Pacific makes its first appearance, along with Kong himself, in the 1933 film King Kong. ",
-//       starring: "Brenda Chapman, Jeff Nathanson",
-//       genres: "Adventures",
-//       tags: "./components/header/logo512.png",
-//       cover: "../images/img/slide2.jpg",
-//       date: "10-JUL-2021",
-//     },
-//     {
-//       id: 3,
-//       name: "Jumbo Queen",
-//       rating: 4.8,
-//       time: "2hr : 22mins",
-//       desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
-//       starring: "James Chinlund, Jeff Nathanson",
-//       genres: "Adventures",
-//       tags: "Adventures,Action ",
-//       cover:"./components/header/logo512.png",
-//       date: "20-FEB-2010",
-//     },
-//   ]
   export const recommended = [
     {
       id: 4,
@@ -164,28 +44,4 @@ export const homeData = [
       name: "One Man Army",
       time: "2hr : 38mins",
     }
-    // {
-    //   id: 5,
-    //   cover: "./components/header/logo512.png",
-    //   name: "Jumbo Queen",
-    //   time: "2hr : 38mins",
-    // },
-    // {
-    //   id: 1,
-    //   cover:"./components/header/logo512.png",
-    //   name: "My office Boss",
-    //   time: "2hr : 38mins",
-    // },
-    // {
-    //   id: 2,
-    //   cover:"./components/header/logo512.png",
-    //   name: "Shadowe",
-    //   time: "2hr : 38mins",
-    // },
-    // {
-    //   id: 3,
-    //   cover:"./components/header/logo512.png",
-    //   name: "Another Danger",
-    //   time: "2hr : 38mins",
-    // },
   ]
