@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from './M.png'
+import logo from './logo.png'
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false)
@@ -8,10 +8,11 @@ const Header = () => {
     <>
       <header>
         <div className='container flexSB'>
-          <nav className='flexSB'>
-            <div className='logo'>
+        <div className='logo'>
               <img src= {logo} alt='' />
-            </div>
+         </div>
+          <nav className='flexSB'>
+            
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
                 <a href='/home'>Home</a>
