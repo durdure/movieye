@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import UpCommingCard from "./UpCommingCard"
+import uCard from "./uCard"
 
 const UpComming = (items, title) =>{
     return (
@@ -11,9 +11,10 @@ const UpComming = (items, title) =>{
                     <h1>{title}</h1>
                     <Link>VIEW ALL</Link>
                 </div>
-
                 <div className="content">
-                    {items.map(() => (<UpCommingCard key= {items.id} items= {items}/>))}
+                    { items.map((item) => (
+                        <uCard key= {item.id} item = {item}/>
+                    )) }
                 </div>
             </div>
         </section>
