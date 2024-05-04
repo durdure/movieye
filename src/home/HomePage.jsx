@@ -5,15 +5,14 @@ import { latest, recommended, upcome } from "../dummyData"
 //styles
 import "./HomePages.css";
 
-
 const HomePages = () => {
     const [items, setItems] = useState(upcome)
     return (
         <>
            <Homes />
-           <UpComming items={items} title= 'UPCOMMING MOVIES' />
+           <UpComming items={items} title='UPCOMING MOVIES' />
         </>
     );
-    }
+}
 
 export default HomePages;

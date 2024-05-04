@@ -9,13 +9,14 @@ const UpComming = ({ items, title }) => {
         <div className="container">
           <div className="heading flexSB">
             <h1>{title}</h1>
-            <Link>VIEW ALL</Link>
+            <Link to='./'>VIEW ALL</Link>
           </div>
-          <div className="content">
+
+          {/* <div className="content">
             {Array.isArray(items) && items.map((item) => (
               <UCard key={item.id} item={item} />
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </>
