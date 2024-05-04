@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const uCard = ({item: {id, cover, name, time }}) => {
+const UCard = ({item: {id, cover, name, time }}) => {
     return (
         <> 
         <div className="MovieBox">
@@ -13,4 +13,4 @@ const uCard = ({item: {id, cover, name, time }}) => {
     )
 }
 
-export default uCard;
+export default UCard;
