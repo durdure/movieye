@@ -2,7 +2,9 @@ import React from "react";
 import HomeCard from "./HomeCard";
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
+import "slick-carousel/slick/slick-theme.css";
+import UpComming from "../upComing/UpComming";
+import { latest, recommended, upcome } from "./../../dummyData"
 
 
 const SmapleNextArrow = (props) => {
@@ -37,14 +39,18 @@ const Home = ({items}) => {
         prevArrow:<SmaplePrevArrow/>,
     }
     return (
+
+        <>
         <div className="homeContainer">
             <Slider {...settings} >
                 { items.map((item) => (   
                      <HomeCard key={item.id} item={item}  /> 
                  ))}
             </Slider>
-          
         </div>
+        <UpComming items={items} title= 'UPCOMMING MOVIES'  />
+        </>
+        
     );
     }
 

@@ -12,11 +12,11 @@ const UpComming = ({ items, title }) => {
             <Link to='./'>VIEW ALL</Link>
           </div>
 
-          {/* <div className="content">
+          <div className="content">
             {Array.isArray(items) && items.map((item) => (
               <UCard key={item.id} item={item} />
             ))}
-          </div> */}
+          </div>
         </div>
       </section>
     </>
