@@ -6,7 +6,6 @@ import Home from "./components/Homes/Homes";
 import Header from "./components/header/Header";
 import UpComming from "./components/upComing/UpComming";
 
-
 const router= createBrowserRouter(
   [
     {

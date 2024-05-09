@@ -4,8 +4,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css";
 import UpComming from "../upComing/UpComming";
-import { latest, recommended, upcome } from "./../../dummyData"
-
+import Footer from "../footer/Footer";
 
 const SmapleNextArrow = (props) => {
     const {onClick} = props
@@ -49,6 +48,7 @@ const Home = ({items}) => {
             </Slider>
         </div>
         <UpComming items={items} title= 'UPCOMMING MOVIES'  />
+        <Footer/>
         </>
         
     );
