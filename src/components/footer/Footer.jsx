@@ -21,7 +21,6 @@ const Footer = () => {
                     <h3>Follow Us</h3>
                     <i className="fab fa-facebook-f"></i>
                     <i className="fab fa-twitter" ></i>
-                    <i className="fa fa-github"></i>
                     <i className="fab fa-youtube"></i>
                     <i className="fab fa-linkedin"></i>
                 </div>

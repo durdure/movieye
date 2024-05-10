@@ -136,3 +136,31 @@
 .margin{
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px){
+    .homeContainer h1{
+        font-size: 50px;
+        margin: 0;
+    }
+    .home{
+        position: relative;
+        margin: 0;
+        height: 60vh !important;
+    }
+    .coverImage img{
+        width: 100vw;
+        height: 70vh !important;
+    }
+    .home .content{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .home .row{
+        width: 100%;
+    }
+    .home .playButton{
+        display: none;
+    }
+    .margin{
+        margin-top: 20px !important;}
+}
