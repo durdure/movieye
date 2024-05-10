@@ -4,6 +4,7 @@ import UCard from "./uCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SinglePage from "../watch/singlepage";
 
 
 const SmapleNextArrow = (props) => {
@@ -55,16 +56,17 @@ const UpComming = ({ items, title }) => {
         <div className="container">
           <div className="heading flexSB">
             <h1>{title}</h1>
-            <Link to='./'>VIEW ALL</Link>
+            <a href= {<SinglePage/>}> VIEW ALL</a>
           </div>
-
+          <Slider {...settings}>
           <div className="content">
-            <Slider {...settings}>
+            
               {items.map((item) => (
                 <UCard key={item.id} item={item} />
               ))}
-            </Slider> 
+            
           </div>
+          </Slider> 
         </div>
       </section>
     </>

@@ -5,6 +5,7 @@ import HomePage from "./home/HomePage";
 import Home from "./components/Homes/Homes";
 import Header from "./components/header/Header";
 import UpComming from "./components/upComing/UpComming";
+import SinglePage from "./components/watch/singlepage";
 
 const router= createBrowserRouter(
   [
@@ -19,6 +20,10 @@ const router= createBrowserRouter(
     {
       path: "./upComing",
       element: <UpComming/>
+    },
+    {
+      path: "/singlepage",
+      element: <SinglePage />
     }
   ]
 );
