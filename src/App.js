@@ -12,28 +12,16 @@ const router= createBrowserRouter(
     {
       path: '/',
       element: <HomePage />,
-    },
-    {
-      path: '/home',
-      element: <Home />,
-    },
-    {
-      path: "./upComing",
-      element: <UpComming/>
-    },
-    {
-      path: "/singlepage",
-      element: <SinglePage />
     }
   ]
 );
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
        <RouterProvider router={router}/>
-    </div>
+    </>
  )
   
 }

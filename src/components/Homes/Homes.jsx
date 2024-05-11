@@ -12,7 +12,6 @@ const Homes = ({ home }) => {
             <Home items= { items}/>
         </section>
         <div className="margin">
-            
         </div>
         </>
     );

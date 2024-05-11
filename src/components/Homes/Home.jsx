@@ -48,7 +48,6 @@ const Home = ({items}) => {
                  ))}
             </Slider>
         </div>
-        <Footer/>
         </>
         
     );
