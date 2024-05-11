@@ -137,7 +137,7 @@
     margin-top: 50px;
 }
 
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .homeContainer h1{
         font-size: 50px;
         margin: 0;
@@ -163,4 +163,4 @@
     }
     .margin{
         margin-top: 20px !important;}
-} */
+}
