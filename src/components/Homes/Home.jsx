@@ -48,8 +48,6 @@ const Home = ({items}) => {
                  ))}
             </Slider>
         </div>
-        <UpComming items={items} title= 'UPCOMMING MOVIES'  />
-        <Trending/>
         <Footer/>
         </>
         

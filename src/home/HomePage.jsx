@@ -12,6 +12,7 @@ const HomePages = () => {
         <>
           <div>
               <Homes />
+              
           </div>
         </>
     );
