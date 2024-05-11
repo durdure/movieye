@@ -34,8 +34,8 @@ const UpComming = ({ items, title }) => {
     dots: false,
     Infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     nextArrow: <SmapleNextArrow />,
     prevArrow: <SmaplePrevArrow />,
     responsive: [
@@ -58,15 +58,14 @@ const UpComming = ({ items, title }) => {
             <h1>{title}</h1>
             <a href= {<SinglePage/>}> VIEW ALL</a>
           </div>
-          <Slider {...settings}>
+
           <div className="content">
-            
+            <Slider {...settings}>
               {items.map((item) => (
                 <UCard key={item.id} item={item} />
               ))}
-            
+            </Slider> 
           </div>
-          </Slider> 
         </div>
       </section>
     </>
