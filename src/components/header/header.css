@@ -7,7 +7,7 @@ Header{
        rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6), 
          rgba(0, 0, 0, 0.0) );
-    color: #fff;
+    color:  #0097b2;
     position: relative;
     z-index:999;
     width: 100%;
@@ -15,12 +15,13 @@ Header{
 
 .logo img{
     width: 100px;
-    margin-top: 0px;
+    height: 75px;
+    margin: 0px;
     margin-right: 0px;
 }
 
 header a{
-    color: #fff;
+    color:  #0097b2;
     margin-left:30px ;
 }
 
@@ -28,7 +29,7 @@ header i{
     quotes: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid  #0097b2;
     height: 40px;
     padding: 10px;
     margin: 0 10px;
@@ -57,7 +58,7 @@ header button{
       position: absolute;
       top: 0;
       left: 0;
-      background-color: #e50813;
+      background-color: #D68D00;
       width: 50%;
       height: 100vh;
       z-index: 9999;

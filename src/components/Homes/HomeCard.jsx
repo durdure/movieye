@@ -8,11 +8,14 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
         <div className='coverImage'>
           <img src={cover} alt='' />
         </div>
+
+
         <div className='content flex'>
 
           <div className='details row'>
             <h1>{name}</h1>
             <div className='rating flex'>
+              
               <div className='rate'>
                 <i className='fas fa-star'></i>
                 <i className='fa fa-star'></i>

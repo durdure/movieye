@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from './logo.png'
+import logo from '../../images/Alexander-removebg.png'
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false)

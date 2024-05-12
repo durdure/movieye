@@ -31,7 +31,7 @@ ul{
 }
 
 button{
-    background-color: #ef0813;
+    background-color: #D68D00;
     outline: none;
     border: none;
     color: #fff;
@@ -147,6 +147,8 @@ p{
     .MovieBox{
         width: 340px;
         height: 250px;
+        align-items: center;
+        justify-content: center;
     }
     
 }

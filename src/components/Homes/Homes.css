@@ -149,7 +149,7 @@
     }
     .coverImage img{
         width: 100vw;
-        height: 70vh !important;
+        height: 100vh !important;
     }
     .home .content{
         flex-direction: column;
@@ -163,4 +163,5 @@
     }
     .margin{
         margin-top: 20px !important;}
+    
 }
