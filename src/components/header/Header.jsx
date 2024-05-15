@@ -14,8 +14,6 @@ const Header = () => {
               <h1>Movieye</h1>
          </div>
 
-          <nav className='nav'>
-            
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
                 <a href='/home'>Home</a>
                 <a href='/series'>Series</a>
@@ -28,9 +26,6 @@ const Header = () => {
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
               {Mobile ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
             </button>
-          </nav>
-
-
 
           <div className='account flexSB'>
             <i className='fa fa-search'></i>
