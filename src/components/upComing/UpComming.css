@@ -1,0 +1,56 @@
+.card-id{
+    width: 350px;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-id .image-box{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.card-id .image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+
+.card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid #fff;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.card-id:hover img{
+    filter: grayscale(1) brightness(0.4);
+}
+
+.card-id:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+
+.text-id{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.fa-play{
+    cursor: pointer;
+    padding: 1px;
+}

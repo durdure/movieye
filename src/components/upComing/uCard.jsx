@@ -1,14 +1,15 @@
 import React from "react";
+import './UpComming.css'
 
 
 const UCard = ({item: {id, cover, name, time }}) => {
     return (
         <> 
-        <div className="MovieBox">
-            <div className="img">
+        <div className="card-id">
+            <div className="image-box">
                 <img src={cover} alt="" />
             </div>
-            <div className="text">
+            <div className="text-id">
                 <h3>{name}</h3>
                 <span> {time} </span>
                 <br />
