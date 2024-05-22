@@ -63,7 +63,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             </div>
 
 
-            WATCH TRAILER
+            PLAY NOW
           </button>
         </Link>
       </div>
