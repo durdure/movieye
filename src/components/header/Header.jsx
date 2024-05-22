@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <header>
         <div className='container flexSB'>
-          <nav className='flexSB'>
+        <nav className='flexSB'>
           <div className='logo'>
             <img src={logo} alt='' />
             <h1>Movieye</h1>
@@ -16,7 +16,7 @@ const Header = () => {
       
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
-                <a href='/'>Home</a>
+                <a href='/' className="home-active">Home</a>
               </li>
               <li>
                 <a href='/'>Series</a>
