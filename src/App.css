@@ -88,7 +88,7 @@ p{
 
 
 @media only screen and (max-width: 768px){
-    .MovieBox{
+    .card-id{
         width: 340px;
         height: 250px;
         align-items: center;
