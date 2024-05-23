@@ -1,0 +1,125 @@
+#section-wrapper{
+    width: 100%;
+    padding: 15px;
+}
+.box-wrapper{
+    position: relative;
+    display: table;
+    width: 100%;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 32px;
+}
+
+.info-wrap{
+    height: 550px;
+    width: 30%;
+    display: block;
+    float: left;
+    border-radius: 27px 0 0 27px;
+    padding:45px ;
+    color: aliceblue;
+    background: linear-gradient(145deg, rgba(126, 39, 156,1)0%, rgba(49, 39, 157,1)100%);
+}
+
+.info-title{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.info-subtitle{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing:0.5px ;
+}
+
+.info-details{
+    margin: 50px 0;
+    list-style: none;
+}
+
+.info-details li{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.info-details li i{
+    background: #D68D00;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.info-details li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.info-details li a:hover{
+    cursor: pointer;
+    color:  #D68D00;
+}
+
+.social-icons{
+    text-align: center;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social-icons li{
+    display: inline-block;
+}
+
+.social-icons li i{
+    color: #fff;
+    background: #D68D00;
+    font-size: 25px;
+    padding: 14px;
+    margin: 0 4px;
+    border-radius: 25%;
+    transition: all 0.5s;
+}
+
+.social-icons li i:hover{
+    background: #fff;
+    color: #D68D00;
+}
+
+.form-wrapper{
+    float: right;
+    width: 65%;
+    padding: 40px 25px 32px 25px;
+    border-radius:15px;
+    background: #ecfef3;
+
+}
+
+.form-tilte{
+    font-size: 28px;
+    text-align: left;
+    margin-left: 25px;
+    letter-spacing: 0.5px;
+}
+.form-felds{
+    width: 100%;
+    display: table;
+    padding: 17px 6px 6px 6px;
+}
+.form-felds input,
+.form-felds textarea{
+    outline:none ;
+    border: none;
+    font-size: 20px;
+    background: none;
+    padding: 20px 10px 20px 10px;
+    color: gray;
+    width: 100%;
+}
+
+.form-felds textarea{
+    resize: none;
+    height: 140px;
+}

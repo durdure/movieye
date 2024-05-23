@@ -8,7 +8,7 @@ const Trending = () => {
     const [items, setItem] = useState(trending);
     return(
         <section className="trending">
-            <Home items={items} />
+            <Home items={items}/>
         </section>
     )
 }
