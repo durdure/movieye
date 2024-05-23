@@ -137,32 +137,30 @@
     margin-top: 50px;
 }
 
-@media only screen and (max-width: 768px){
-    .homeContainer h1{
-        font-size: 50px;
-        margin: 0;
-    }
-    .home{
-        position: relative;
-        margin: 0;
-        height: 60vh !important;
-    }
-    .coverImage img{
-        width: 100vw;
-        height: 100vh !important;
-    }
-    .home .content{
-        flex-direction: column;
+/* Responsive css */
+@media screen and (max-width: 768px){
+    .homeContainer .content{
         padding: 50px;
     }
-    .home .row{
-        width: 100%;
+
+    .homeContainer h1{
+        font-size: 50px;
     }
-    .home .playButton{
-        display: none;
+
+    .homeContainer .rating{
+        margin: 20px 0;
     }
-    .margin{
-        margin-top: 20px !important;
+
+    .rating label{
+        margin: 0 10px;
     }
-    
+
+    .cast h4{
+        font-size: 15px;
+    }
+
+    .playButton img{
+        height: 70px;
+        width: 70px;
+    }
 }

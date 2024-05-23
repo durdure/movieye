@@ -57,14 +57,17 @@
 }
 
 
-@media (max-width: 768px) {
-    .card-id {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 20px;
+/* Responsive css */
+@media screen and (max-width: 768px){
+    .card-id{
+        width: 100%;
+        aspect-ratio: 1 / 0.7;
     }
-  
-    .card-id.mobile {
-      width: calc(100% - 20px); 
+    .fa-play{
+        font-size: 16px;
+    }
+    .primary-btn{
+        font-size: 10px;
+        border-radius: 25%;
     }
 }
