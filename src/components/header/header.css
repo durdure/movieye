@@ -1,136 +1,75 @@
 Header{
   height: 10vh;
   line-height: 1vh;
-  background-image: linear-gradient(to right bottom,
-   rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.9), 
-     rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6), 
-       rgba(0, 0, 0, 0.0) );
-  color:  #fff;
   position: relative;
   z-index:999;
   width: 100%;
 }
 
-.logo{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-position: relative;
-border-radius: 15px;
-box-shadow: 16px 14px 2px black;
-height: 5vh;
-margin-top: 15px;
-cursor: pointer;
+li{
+  list-style: none;
 }
 
-.logo::before{
-content: "";
-position: absolute;
-background: linear-gradient(60deg, transparent, #0097b2);
-transform-origin: botton right;
-animation: rotate 7s linear infinite;
+a{
+  text-decoration: none;
+  color: darkgray;
 }
 
-@keyframes rotate{
-    
-}
-
-.logo h1{
-justify-self: center;
-align-items: center;
-
-}
-
-.logo img{
-  width: 75px;
-  height: 55px;
-  margin-top: 5px;
-}
-
-header a{
-  color:  #fff;
-  margin-left:30px ;
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  background: #29886c;
   position: relative;
-  display: inline-block;
-  font-size: 1em;
-  padding: 0 23px;
-  z-index: 1;
 }
 
-header i{
-  quotes: 40px;
-  text-align: center;
-  border-radius: 50%;
-  border: 2px solid  #0097b2;
-  height: 40px;
-  padding: 10px;
-  margin: 0 10px;
-}
-
-.nav {
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 10vh;
-display: flex;
-border-radius: 10px;
-}
-.nav span{
-position: absolute;
-top: 0;
-left: 380px;
-width: 95px;
-height: 100%;
-background: linear-gradient(90deg, #0097b2, #D68D00);
-border-radius: 10px;
-transition: 0.5s;
-}
-
-
-header button{
-  border-radius: 10px;
+.nav_brand{
+  font-size: 3.5rem;
+  color: #e39623;
+  text-transform: uppercase;
   font-weight: bold;
-  font-size: 17px;
 }
 
-.toggle{
- display: none;
+.nav_menu{
+  display: flex;
+  justify-content: space-around;
+  /* width: 30%; */
+  align-items: center;
+  gap: 3rem;
 }
 
-@media (max-width: 900px) {
-  header nav .flexSB {
-    display: none;
+
+.nav_toggle{
+  display: none;
+  cursor: pointer;
+}
+
+.nav_toggle div{
+  margin: 0.4rem;
+  height: 0.3rem;
+  width: 2.5rem;
+  background:#e39623;
+  transition: 0.3s ease-in;
+}
+
+
+@media screen and (max-width: 768px){
+  .nav_toggle{
+    display: block;
+    cursor: pointer;
   }
-  .account {
-    display: none;
-  }
-  .navMenu-list {
+  
+  .nav_menu{
+    position: fixed;
+    width: 50%;
+    height: 20vh;
+    top: 7vh;
+    background: #e39623 ;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #D68D00;
-    width: 50%;
-    height: 100vh;
-    z-index: 9999;
+    transform: translateX(100%);
   }
-  header ul li {
-    align-items: left;
-    margin-top: 30px;
-    padding: 0 50px;
-  }
-  .toggle {
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 5px;
-    margin: auto;
-    cursor: pointer;
-    background: none;
-  }
+
+ 
 }

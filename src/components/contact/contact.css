@@ -4,11 +4,13 @@
 }
 .box-wrapper{
     position: relative;
-    display: table;
+    display: flex;
     width: 90%;
     margin: auto;
     margin-top: 32px;
     border-radius: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-wrap{
@@ -92,9 +94,9 @@
     float: right;
     width: 65%;
     padding: 40px 25px 32px 25px;
-    border-radius:15px;
+    border-radius:0 15px 15px 0;
     background: #ecfef3;
-
+    
 }
 
 .form-tilte{
@@ -158,7 +160,169 @@
     color: #D68D00;
 }
 
+@media screen and (max-width: 480px) {
+    .info-wrap{
+        width: 100%;
+        border-radius: 27px 27px 0 0;
+    }
+    .form-wrapper{
+        width: 100%;
+        border-radius: 0 0 27px 27px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .form-felds .form-group:last-child{
+        width: 100%;
+    }
+    .info-details{
+        margin: 20px 0;
+    }
+    .info-details li{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .info-details li i{
+        padding: 12px;
+    }
+    .info-details li a{
+        font-size: 18px;
+    }
+    .info-details li a:hover{
+        color:  #D68D00;
+    }
+    .social-icons li i{
+        font-size: 20px;
+        padding: 12px;
+    }
+    .form-tilte{
+        font-size: 24px;
+    }
+    .form-felds input,
+    .form-felds textarea{
+        font-size: 18px;
+        padding: 15px 10px 15px 10px;
+    }
+    .form-felds textarea{
+        height: 120px;
+    }
+    .submit-btn{
+        padding: 15px 0;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
+    .info-wrap{
+        width: 100%;
+        border-radius: 27px 27px 0 0;
+    }
+    .form-wrapper{
+        width: 100%;
+        border-radius: 0 0 27px 27px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .form-felds .form-group:last-child{
+        width: 100%;
+    }
+    .info-details{
+        margin: 20px 0;
+    }
+    .info-details li{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .info-details li i{
+        padding: 12px;
+    }
+    .info-details li a{
+        font-size: 18px;
+    }
+    .info-details li a:hover{
+        color:  #D68D00;
+    }
+    .social-icons li i{
+        font-size: 20px;
+        padding: 12px;
+    }
+    .form-tilte{
+        font-size: 24px;
+    }
+    .form-felds input,
+    .form-felds textarea{
+        font-size: 18px;
+        padding: 15px 10px 15px 10px;
+    }
+    .form-felds textarea{
+        height: 120px;
+    }
+    .submit-btn{
+        padding: 15px 0;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 834px) {
+    .info-wrap{
+        width: 100%;
+        border-radius: 27px 27px 0 0;
+    }
+    .form-wrapper{
+        width: 100%;
+        border-radius: 0 0 27px 27px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .form-felds .form-group:last-child{
+        width: 100%;
+    }
+    .info-details{
+        margin: 20px 0;
+    }
+    .info-details li{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .info-details li i{
+        padding: 12px;
+    }
+    .info-details li a{
+        font-size: 18px;
+    }
+    .info-details li a:hover{
+        color:  #D68D00;
+    }
+    .social-icons li i{
+        font-size: 20px;
+        padding: 12px;
+    }
+    .form-tilte{
+        font-size: 24px;
+    }
+    .form-felds input,
+    .form-felds textarea{
+        font-size: 18px;
+        padding: 15px 10px 15px 10px;
+    }
+    .form-felds textarea{
+        height: 120px;
+    }
+    .submit-btn{
+        padding: 15px 0;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 1440px) and (max-width:1024px) {
     .info-wrap{
         width: 100%;
         border-radius: 27px 27px 0 0;

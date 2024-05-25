@@ -56,8 +56,6 @@
     padding: 1px;
 }
 
-
-/* Responsive css */
 @media screen and (max-width: 768px){
     .card-id{
         width: 100%;

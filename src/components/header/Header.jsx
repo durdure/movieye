@@ -1,50 +1,37 @@
-import React, { useState } from "react"
-import "./header.css"
-import logo from './../../images/logomain.png'
+import React from 'react'
+import './header.css'
 
 const Header = () => {
-  const [Mobile, setMobile] = useState(false)
   return (
-    <>
-      <header>
-        <div className='container flexSB'>
-        <nav className='flexSB'>
-          <div className='logo'>
-            <img src={logo} alt='' />
-            <h1>Movieye</h1>
-          </div>
-      
-            <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
-              <li>
-                <a href='/' className="home-active">Home</a>
-              </li>
-              <li>
-                <a href='/'>Series</a>
-              </li>
-              <li>
-                <a href='/'>Movies</a>
-              </li>
-              <li>
-                <a href='/'>Pages</a>
-              </li>
-             
-              <li>
-                <a href='/'>Contact</a>
-              </li>
-            </ul>
-            <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
-            </button>
-          </nav>
-          <div className='account flexSB'>
-            <i className='fa fa-search'></i>
-            <i class='fas fa-bell'></i>
-            <i className='fas fa-user'></i>
-            <button>Subscribe Now</button>
-          </div>
-        </div>
-      </header>
-    </>
+    <nav className='nav'>
+      <a href="#" className="nav_brand">
+        Movieye</a>
+      <ul className='nav_menu'>
+        <li className='nav_item'>
+          <a href="#" className='nav_link'>
+            Home</a>
+        </li>
+        <li className='nav_item'>
+          <a href="#" className='nav_link'>
+            About</a>
+        </li>
+        <li className='nav_item'>
+          <a href="#" className='nav_link'>
+            latest
+          </a>
+        </li>
+        <li className='nav_item'>
+          <a href="#" className='nav_link'>
+            Contact
+            </a>
+        </li>
+      </ul>
+      <div className="nav_toggle">
+        <div className='line_1'></div>
+        <div className='line_2'></div>
+        <div className='line_3'></div>
+      </div>
+    </nav>
   )
 }
 

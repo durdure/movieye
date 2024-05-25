@@ -2,6 +2,41 @@ import React from 'react'
 import './contact.css'
 
 const Contact = () => {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    setResult('Sending...')
+    formData.append("access_key", "964665b0-58c8-4fef-8b88-b09c17c93435");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        setResult('Form sent successfully!');
+        event.target.reset();
+      } else {
+        console.log("Error", data);
+        setResult(data.message)
+      }
+    } catch (error) {
+      console.error("Error submitting the form", error);
+    }
+  };
+
   return (
     <section id='section-wrapper'>
       <div className="box-wrapper">
@@ -49,23 +84,23 @@ const Contact = () => {
           </ul>
         </div>
         <div className="form-wrapper">
-          <form action="#" method='POST'>
+          <form onSubmit={onSubmit}>
             <h2 className='form-tilte'>Send Us Message</h2>
             <div className='form-felds'>
               <div className='form-group'>
-                <input type="text" className='fname' placeholder='First Name' />
+                <input type="text" name="first_name" className='fname' placeholder='First Name' required />
               </div>
               <div className='form-group'>
-                <input type="text" className='lname' placeholder='last Name' />
+                <input type="text" name="last_name" className='lname' placeholder='last Name' required />
               </div>
               <div className='form-group'>
-                <input type="email" className='emain' placeholder='Email' />
+                <input type="email" className='emain' placeholder='Email' required />
               </div>
               <div className='form-group'>
-                <input type="number" className='phone' placeholder='Phone Nuber' />
+                <input type="number" name="phone" className='phone' placeholder='Phone Nuber' required/>
               </div>
               <div className='form-group'>
-                <textarea name="" placeholder='Write Your Message'></textarea>
+                <textarea name="message"  placeholder='Write Your Message' required></textarea>
               </div>
             </div >
             <input type="submit" value= 'Send Message' className='submit-btn'/>
