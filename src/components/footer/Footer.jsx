@@ -33,53 +33,25 @@ const Footer = () => {
           </div>
           <div className='coloumn' id='services'>
             <h2>Services</h2>
-            <ul>
-              <li>
-                <a href='#'>Movies</a>
-              </li>
-              <li>
-                <a href='#'>Web Series</a>
-              </li>
-              <li>
-                <a href='#'>Tv Shows</a>
-              </li>
-              <li>
-                <a href='#'>Upcoming Movies</a>
-              </li>
-            </ul>
+            <div className='link'>
+              <a href='#'>Movies</a>
+              <a href='#'>Tv Shows</a>
+              <a href='#'>Web Series</a>
+              <a href='#'>Trailers</a>
+            </div>
           </div>
-        </div>
-
-        <div className='coloumn' id='contact'>
+          <div className='coloumn' id='contact'>
           <h2>Contact Us</h2>
-          <ul>
-            <li>
-              <span>
-                <i className='fas fa-map-marker-alt'></i>
-              </span>
-              <span> 1000, AASTU, Addis Ababa, Ethiopia</span>
-            </li>
-            <li>
-              <span>
-                <i className='fas fa-phone'></i>
-              </span>
-              <span> +251 993018443</span>
-            </li>
-            <li>
-              <span>
-                <i className='fas fa-envelope'></i>
-              </span>
-              <span> duresaeshetu2001@gmail.com</span>
-            </li>    
-          </ul>  
+         <div className="contact-detail">
+          <i className='fa fa-location'></i>
+          <p>1000, AASTU, Addis Ababa, Ethiopia</p>
+         </div>
+         <div className="contact-detail">
+          <i className='fa fa-phone'></i>
+          <p>+251 911 111 111</p>
+         </div>
         </div>
-
-
-
-
-
-
-
+        </div>
       </div>
     </footer>
   )

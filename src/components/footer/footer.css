@@ -5,6 +5,7 @@ footer{
     position: relative;
     width: 100%;
     min-height: 300px;
+    margin-top: 20px;
 }
 
 footer .container{
@@ -33,4 +34,81 @@ footer .row .coloumn{
 footer .row .coloumn .logo{
    width: 100px;
    margin-bottom: 25px;
+}
+
+footer .row .coloumn h2{
+    margin-bottom: 20px;
+    color:#e39623;
+    position: relative;
+
+}
+
+footer .coloumn h2::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #e39623;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+footer .coloumn h2:hover::after{
+    width: 30px;
+}
+
+footer .social a i{
+    color:#e39623;
+    margin-top: 5rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+} 
+
+footer .social a i:hover{
+    color: #f2f2f2;
+}
+
+footer .coloumn .link a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.3s ease; 
+    position: relative;
+}
+
+footer .coloumn .link a::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 16px;
+    background-color: #e39623;
+    left: -10px;
+    top: 5px;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+
+footer .coloumn .link a:hover::before{
+    opacity: 1;
+}
+
+footer .coloumn .link a:hover{
+    color: #e39623;
+    transform: translateX(10px);
+}
+
+footer .coloumn .contact-detail{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+footer .coloumn .contact-detail i{
+    color: #e39623;
+    margin-right: 15px;
+}
+
+footer .coloumn .contact-detail p{
+    color: #f2f2f2;
 }
