@@ -6,6 +6,8 @@ MOVIEY is a powerful and user-friendly movie database application designed to he
 
 <img src="./public/images/Screenshot 2024-05-17 010850.png" style="width:auto; height:auto">
 
+
+<img src="./public/images/Screenshot 2024-05-17 010910.png">
 ## Features
 
 - **Comprehensive Movie Database**: Access detailed information on a wide range of movies.
