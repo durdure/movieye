@@ -4,6 +4,8 @@
 
 MOVIEY is a powerful and user-friendly movie database application designed to help users discover, track, and review movies. It provides an extensive database of movies along with detailed information such as cast, crew, reviews, ratings, and more. The application offers an intuitive interface and robust search functionality, making it easy for users to find their favorite movies or explore new ones.
 
+<img src="./public/images/Screenshot 2024-05-17 010850.png" style="width:auto; height:auto">
+
 ## Features
 
 - **Comprehensive Movie Database**: Access detailed information on a wide range of movies.
