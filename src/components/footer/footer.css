@@ -19,6 +19,98 @@ footer .container .seci{
     margin-right: 30px;
 }
 
-footer .container .seci .aboutUs{
-    
+footer .container .seci.aboutUs{
+    width: 40%;
+}
+
+footer .container h2{
+    position: relative;
+    color: #e39623;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+footer .container  h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 50px;
+    background: #29886c;
+}
+
+footer p{
+    color: #999;
+}
+
+footer .section{
+    margin-top: 20px;
+    display: flex;
+}
+
+footer .section li{
+    list-style: none;
+}
+
+footer .section a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+footer .section a:hover{
+    background: #29886c;
+}
+
+footer .section a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLink{
+    width: 30%;
+    position: relative;
+}
+
+.quickLink ul li a{
+    color: #999;
+    list-style: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quickLink ul li a:hover{
+    color: #29886c;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+  .contact{
+    width: calc(30% - 30px);
+    margin-right: 10px !important;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+ .contact .info li{
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.contact .info li span:nth-child(1){
+    color: #999;
+    margin-right: 10px;
+    font-size: 20px;
 }
