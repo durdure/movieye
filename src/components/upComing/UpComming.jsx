@@ -33,7 +33,7 @@ const UpComming = ({ items, title }) => {
   const settings = {
     dots: false,
     Infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 4,
     slidesToScroll: 4,
     autoplay: true,
