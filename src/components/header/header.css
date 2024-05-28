@@ -8,11 +8,13 @@ Header{
 
 li{
   list-style: none;
+  font-family: poppins;
 }
 
 a{
   text-decoration: none;
   color: darkgray;
+  font-family: poppins;
 }
 
 .nav{

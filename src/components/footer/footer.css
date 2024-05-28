@@ -155,9 +155,6 @@ footer .row .form button:focus{
     outline: none;
 }
 
-footer .row .form button i{
-    margin-left: 7px;
-}
 
 footer .row .form button i:hover{
     color: #333;
