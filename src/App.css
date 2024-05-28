@@ -63,7 +63,7 @@ p{
     padding: 0;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -71,6 +71,7 @@ p{
    position: absolute;
    top: 50%;
    right: 2%;
+
 }
 
 .control-btn .prev{
