@@ -36,6 +36,8 @@ const UpComming = ({ items, title }) => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
     nextArrow: <SmapleNextArrow />,
     prevArrow: <SmaplePrevArrow />,
     responsive: [
@@ -44,6 +46,20 @@ const UpComming = ({ items, title }) => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       }
       
