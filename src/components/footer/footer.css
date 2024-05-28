@@ -1,5 +1,5 @@
 footer{
-    background-color: #333;
+    background-color: #172041;
     color: #fff;
     padding: 10px;
     position: relative;
@@ -111,4 +111,84 @@ footer .coloumn .contact-detail i{
 
 footer .coloumn .contact-detail p{
     color: #f2f2f2;
+}
+
+footer .row .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .row .form input{
+    color: #1b1717;
+    border: 0;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
+}
+
+footer .row .form button{
+    background-color: #e39623;
+    color: #f2f2f2;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+}
+
+footer .row .form button:hover{
+    background-color: #333;
+    color: #e39623;
+}
+
+footer .row .form input::placeholder{
+    color: #1b1717;
+}
+
+footer .row .form input:focus{
+    outline: none;
+}
+
+footer .row .form button:focus{
+    outline: none;
+}
+
+footer .row .form button i{
+    margin-left: 7px;
+}
+
+footer .row .form button i:hover{
+    color: #333;
+}
+
+@media screen and (max-width: 768px){
+    footer .row{
+        flex-direction: column;
+    }
+
+    footer .row .coloumn{
+        margin-bottom: 20px;
+    }
+
+    footer .row .form{
+        flex-direction: column;
+    }
+
+    footer .row .form input{
+        margin-bottom: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    footer .row .form button{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
 }

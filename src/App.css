@@ -8,7 +8,8 @@
 
 body{
     font-family: "Poppins" sans-serif;
-    background-color:black
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 a{
@@ -31,13 +32,16 @@ ul{
 }
 
 button{
-    background-color: #D68D00;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     outline: none;
     border: none;
-    color: #fff;
+    border-radius: 25px;
+    color: #145A32 ;
     padding: 20px 40px;
-    font-weight: 500;
+    font-weight: 700;
     font-size:17px ;
+    cursor: pointer;
+
 }
 
 .row{

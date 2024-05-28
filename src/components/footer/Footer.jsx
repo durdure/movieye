@@ -31,6 +31,8 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+
           <div className='coloumn' id='services'>
             <h2>Services</h2>
             <div className='link'>
@@ -40,6 +42,7 @@ const Footer = () => {
               <a href='#'>Trailers</a>
             </div>
           </div>
+        
           <div className='coloumn' id='contact'>
           <h2>Contact Us</h2>
          <div className="contact-detail">
@@ -51,6 +54,17 @@ const Footer = () => {
           <p>+251 911 111 111</p>
          </div>
         </div>
+        </div>
+
+
+
+        <div className='row'>
+          <div className='form'>
+            <form action="">
+              <input type="text" placeholder='Email here...' />
+              <button><i className='fa fa-paper-plane'></i></button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
