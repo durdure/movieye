@@ -31,16 +31,16 @@ ul{
 }
 
 button{
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     outline: none;
     border: none;
     border-radius: 25px;
-    color: #145A32 ;
-    padding: 20px 40px;
-    font-weight: 700;
-    font-size:17px ;
+    color: hsl(145, 16%, 67%) ;
+    font-weight: 500;
+    font-size:11px ;
     cursor: pointer;
-
+    height: 10vh;
+    width: 100px;
+    padding: 10px 20px;
 }
 
 .row{

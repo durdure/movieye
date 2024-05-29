@@ -47,7 +47,8 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             </div>
 
             <button className='primary-btn'>
-              <i className='fas fa-play'></i> PLAY NOW
+              <i className='fas fa-play'></i> 
+              PLAY NOW
             </button>
           </div>
 
@@ -63,7 +64,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             </div>
 
 
-            WATCH TRAILER
+           play Now
           </button>
         </Link>
       </div>
