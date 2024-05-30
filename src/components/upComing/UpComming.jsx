@@ -37,7 +37,7 @@ const UpComming = ({ items, title }) => {
     slidesToShow: 4,
     slidesToScroll: 4,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 10000,
     nextArrow: <SmapleNextArrow />,
     prevArrow: <SmaplePrevArrow />,
     responsive: [

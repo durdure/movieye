@@ -76,7 +76,7 @@ ul{
     margin: auto;
 }
 
-button{
+/* button{
     outline: none;
     border: none;
     border-radius: 25px;
@@ -87,7 +87,7 @@ button{
     height: 10vh;
     width: 100px;
     padding: 10px 20px;
-}
+} */
 
 .row{
     width: 50%;

@@ -4,20 +4,20 @@ import './UpComming.css'
 
 const UCard = ({item: {id, cover, name, time }}) => {
     return (
-        <div className="card-group"> 
             <div className="card">
                 <img src={cover} alt="" />
-
-                <div className="layer"></div>
-                <div className="info">
-                    <h3>{name}</h3>
-                    <span> {time} </span>
-                    <br />
-                    <button className="primary-btn">
-                        <i className="fa fa-play"></i></button>
-                </div>
+                <div className="card-content">
+                 <h2>{name}</h2>
+                    <p>{time}</p>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <button className="button-card">
+                                Play now
+                            </button>
+                        </span>
+                    </a>
             </div>
-       </div>
+        </div>
     )
 }
 
