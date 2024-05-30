@@ -120,6 +120,7 @@ const Footer = () => {
                             <p>Copyright &copy; 2024, All Right Reserved</p>
                         </div>
                     </div>
+                    
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>

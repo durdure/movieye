@@ -3,10 +3,20 @@ footer{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     padding: 60px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 footer .container {
-    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;   
 }
 
 
@@ -200,6 +210,7 @@ ul {
 .copyright-area{
   background: #202020;
   padding: 25px 0;
+  width: 100%;
 }
 .copyright-text p {
   margin: 0;
