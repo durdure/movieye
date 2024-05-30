@@ -5,6 +5,8 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
   return (
     <>
       <div className='box'>
+
+
         <div className='coverImage'>
           <img src={cover} alt='' />
         </div>
@@ -12,7 +14,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
 
         <div className='content flex'>
 
-          <div className='details row'>
+          <div className='details_row'>
             <h1>{name}</h1>
             <div className='rating flex'>
               
@@ -56,14 +58,10 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
           <div className="playButton row">
         <Link to={`/singlepage/${id}`}>
           <button>
-
-
             <div className='img'>
               <img src='./images/play-button.png' alt='' />
               <img src='./images/play.png' alt="" className='change' />
             </div>
-
-
            play Now
           </button>
         </Link>

@@ -76,18 +76,6 @@ ul{
     margin: auto;
 }
 
-/* button{
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    color: hsl(145, 16%, 67%) ;
-    font-weight: 500;
-    font-size:11px ;
-    cursor: pointer;
-    height: 10vh;
-    width: 100px;
-    padding: 10px 20px;
-} */
 
 .row{
     width: 50%;
@@ -103,13 +91,13 @@ p{
 }
 
 .control-btn button{
-    background: none;
     border:2px solid rgba(255, 255, 255, 0.3);
     padding: 0;
     height: 50px;
     width: 50px;
     border-radius: 10px;
     cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .control-btn .next{
@@ -122,27 +110,52 @@ p{
 .control-btn .prev{
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 0;
     z-index: 99;
  }
 
+
 .heading h1{
     font-weight: 500;
-    margin: 30px 0;
+    margin: 20px 0;
+    color: #fff;
 }
 
 .heading a{
-    color: #e50813;
+    color: #08e50f;
 }
 
-
-
-@media only screen and (max-width: 768px){
-    .card-id{
-        width: 340px;
-        height: 250px;
-        align-items: center;
-        justify-content: center;
+/* responsive css */
+@media screen and (max-width: 768px){
+    .row{
+        width: 100%;
     }
+
+    .control-btn button{
+        height: 40px;
+        width: 40px;
+    }
+
+    .heading{
+        margin-top: 25px;
+    }
+
+    .heading h1{
+        font-size: 1.5rem;
+    }
+
+    .control-btn .next{
+        right: 5%;
+    }
+
+    .control-btn .prev{
+        left: 5%;
+    }
+
+    .control-btn button{
+        height: 30px;
+        width: 30px;
+    }
+
     
 }
