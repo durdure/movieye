@@ -81,6 +81,63 @@
 
 }
 
+.card .button-card{
+  padding: 10px 20px;
+  background-color: #0a8439;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: transform .3s ease-out;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+
+/* Responsive css */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    display: block;
+  }
+
+  .card img {
+    height: 100%;
+  }
+
+  .card h2 {
+    inset: auto auto 20px 20px;
+  }
+
+  .card p {
+    inset: auto auto 60px 20px;
+  }
+
+  .card a {
+    inset: auto auto 40px 20px;
+  }
+
+  .card:hover h2 {
+    inset: auto auto 150px 20px;
+  }
+
+  .card:hover p, .card:hover a {
+    opacity: 1;
+  }
+
+  .card:hover img {
+    opacity: 1;
+  }
+}
+
+
 
 
 
