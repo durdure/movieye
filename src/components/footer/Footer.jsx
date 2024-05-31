@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="footer-cta pt-5 pb-5">
 
 
-                <div className="row">
+                <div className="row1">
                     <div className="col-xl-4 col-md-4 mb-30">
                         <div className="single-cta">
                             <i className="fas fa-map-marker-alt"></i>
@@ -53,7 +53,7 @@ const Footer = () => {
           
           
             <div className="footer-content pt-5 pb-5">
-                <div className="row">
+                <div className="row1">
                     <div className="col-xl-4 col-lg-4 mb-50">
                         <div className="footer-widget">
                             <div className="footer-logo">
