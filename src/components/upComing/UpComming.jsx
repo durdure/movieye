@@ -73,7 +73,7 @@ const UpComming = ({ items, title }) => {
           <div className="heading flexSB">
             <h1>{title}</h1>
           
-            <a href= {<SinglePage/>}> VIEW ALL</a>
+            <a href="./singlepage"> VIEW ALL</a>
             <div className="break"></div>
           </div>
 
