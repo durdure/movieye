@@ -36,7 +36,7 @@ const Header = () => {
             <i className='fa fa-search'></i>
             <i class='fas fa-bell'></i>
             <i className='fas fa-user'></i>
-            <button>Subscribe Now</button>
+            <button>LogIn</button>
           </div>
         </div>
       </header>
