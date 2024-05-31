@@ -63,6 +63,7 @@
   &:hover img {
     transition: .3s ease-in;
     opacity: 0.5;
+    border-radius: 10%;
 
   }
 
