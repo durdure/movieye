@@ -1,6 +1,6 @@
 
 
-# MOVIEY
+# MOVIEYE
 
 MOVIEY is a powerful and user-friendly movie database application designed to help users discover, track, and review movies. It provides an extensive database of movies along with detailed information such as cast, crew, reviews, ratings, and more. The application offers an intuitive interface and robust search functionality, making it easy for users to find their favorite movies or explore new ones.
 
@@ -25,7 +25,7 @@ To install and run MOVIEY locally, follow these steps:
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/MOVIEY.git
+    git clone https://github.com/durdure/movieye.git
     cd MOVIEY
     ```
 
@@ -77,7 +77,7 @@ We welcome contributions from the community! To contribute to MOVIEY, please fol
 2. **Clone Your Fork**
 
     ```bash
-    git clone https://github.com/yourusername/MOVIEY.git
+    git clone https://github.com/durdure/MOVIEY.git
     cd MOVIEY
     ```
 
@@ -99,8 +99,8 @@ We welcome contributions from the community! To contribute to MOVIEY, please fol
 
     ```bash
     git add .
-    git commit -m "Add your commit message here"
-    git push origin feature/your-feature-name
+    git commit -m "Movieye"
+    git push origin feature/let_do_hard
     ```
 
 6. **Create a Pull Request**

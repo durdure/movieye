@@ -39,6 +39,7 @@ const Contact = () => {
 
   return (
     <section id='section-wrapper'>
+      
       <div className="box-wrapper">
         <div className="info-wrap">
           <h2 className="info-title">
@@ -83,6 +84,9 @@ const Contact = () => {
             </li>
           </ul>
         </div>
+
+
+
         <div className="form-wrapper">
           <form onSubmit={onSubmit}>
             <h2 className='form-tilte'>Send Us Message</h2>

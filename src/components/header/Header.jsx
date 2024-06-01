@@ -32,10 +32,50 @@ const Header = () => {
               {Mobile ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
             </button>
           </nav>
-          <div className='account flexSB'>
-            <i className='fa fa-search'></i>
+          <div className='account flexSB'
+          style={
+            {
+              color: "#fff",
+              cursor: "pointer",
+              padding: "0px",
+              display: "flex",
+            }
+          }
+          >
+            <a href="/singlepage" style={
+              {
+                color: "#fff",
+                cursor: "pointer",
+                padding: "0px",
+                margin: "0px",
+                display: "flex",
+              }
+            }>
+              <i className='fa fa-search'></i>
+            </a>
+            <a href="./siglepage" style={
+              {
+                color: "#fff",
+                cursor: "pointer",
+                padding: "0px",
+                margin: "0px",
+                display: "flex",
+              }
+            }>
             <i class='fas fa-bell'></i>
-            <i className='fas fa-user'></i>
+
+            </a>
+            <a href="./" style={
+              {
+                color: "#fff",
+                cursor: "pointer",
+                padding: "0px",
+                margin: "0px",
+                display: "flex",
+              }}><i className='fas fa-user' ></i></a>
+            
+           
+            
             <button>LogIn</button>
           </div>
         </div>

@@ -60,8 +60,9 @@ const Footer = () => {
                                <img src={Logo} alt="" />
                             </div>
                             <div className="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>MOVIEYE is a powerful and user-friendly
+                                     movie database application designed to help
+                                      users discover, track, and review movies.</p>
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
@@ -80,11 +81,9 @@ const Footer = () => {
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#">about</a></li>
                                 <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
                                 <li><a href="#">Contact</a></li>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
                                 <li><a href="./contact">Contact us</a></li>
                                 <li><a href="#">Latest News</a></li>
                             </ul>

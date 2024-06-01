@@ -20,6 +20,7 @@ const HomePages = () => {
         <UpComming items={item} title="Latest Movies" />
         <Trending />
         <UpComming items={re} title="Recommended Movies" />
+        <Footer />
         </>
     );
     }
