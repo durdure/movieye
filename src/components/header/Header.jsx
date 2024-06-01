@@ -25,7 +25,7 @@ const Header = () => {
                 <a href='/'>Pages</a>
               </li>
               <li>
-                <a href='/'>Contact</a>
+                <a href='/contact'>Contact</a>
               </li>
             </ul>
             <button className='toggle' onClick={() => setMobile(!Mobile)}>

@@ -65,8 +65,8 @@ const Footer = () => {
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.facebook.com/jaki.jim.902"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://twitter.com/DureEshe29667"><i class="fab fa-twitter twitter-bg"></i></a>
                                 <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">about</a></li>
                                 <li><a href="#">services</a></li>
                                 <li><a href="#">portfolio</a></li>
@@ -85,7 +85,7 @@ const Footer = () => {
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Our Services</a></li>
                                 <li><a href="#">Expert Team</a></li>
-                                <li><a href="./contactus">Contact us</a></li>
+                                <li><a href="./contact">Contact us</a></li>
                                 <li><a href="#">Latest News</a></li>
                             </ul>
                         </div>

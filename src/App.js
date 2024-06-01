@@ -20,7 +20,7 @@ const router= createBrowserRouter(
       element: <SinglePage />,
     },
     {
-      path:"./contact",
+      path:"/contact",
       element:<Contact/>,
     }
   ]
