@@ -26,7 +26,7 @@ MOVIEYE is a powerful and user-friendly movie database application designed to h
 
 ## Installation
 
-To install and run MOVIEY locally, follow these steps:
+To install and run MOVIEYE locally, follow these steps:
 
 1. **Clone the Repository**
 
