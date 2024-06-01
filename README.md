@@ -12,6 +12,8 @@ MOVIEYE is a powerful and user-friendly movie database application designed to h
 <img src="./public/images/image_recommended.png">
 
 <img src="./public/images/image_footer.png">
+
+
 ## Features
 
 - **Comprehensive Movie Database**: Access detailed information on a wide range of movies.
