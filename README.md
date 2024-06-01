@@ -2,7 +2,7 @@
 
 # MOVIEYE
 
-MOVIEY is a powerful and user-friendly movie database application designed to help users discover, track, and review movies. It provides an extensive database of movies along with detailed information such as cast, crew, reviews, ratings, and more. The application offers an intuitive interface and robust search functionality, making it easy for users to find their favorite movies or explore new ones.
+MOVIEYE is a powerful and user-friendly movie database application designed to help users discover, track, and review movies. It provides an extensive database of movies along with detailed information such as cast, crew, reviews, ratings, and more. The application offers an intuitive interface and robust search functionality, making it easy for users to find their favorite movies or explore new ones.
 
 <img src="./public/images/Screenshot 2024-05-17 010850.png" style="width:auto; height:auto">
 
@@ -86,7 +86,7 @@ We welcome contributions from the community! To contribute to MOVIEY, please fol
     Create a new branch for your feature or bugfix:
 
     ```bash
-    git checkout -b feature/your-feature-name
+    git checkout -b feature/durdure_st.
     ```
 
 4. **Make Changes**
@@ -100,7 +100,7 @@ We welcome contributions from the community! To contribute to MOVIEY, please fol
     ```bash
     git add .
     git commit -m "Movieye"
-    git push origin feature/let_do_hard
+    git push origin feature/durdure_st.
     ```
 
 6. **Create a Pull Request**
@@ -112,5 +112,3 @@ We welcome contributions from the community! To contribute to MOVIEY, please fol
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Feel free to modify this template according to your project's specific needs and details.
