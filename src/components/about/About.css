@@ -1,0 +1,148 @@
+.section_about{
+    display: flex;
+    min-height: 70vh;
+    width: 67%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.image_about{
+    display: flex;
+    border-radius: 12px 0 0 12px;
+}
+
+.image_about img{
+    height:50vh;
+margin:50px auto
+}
+
+.content_about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0  12px 12px 0;
+    color: #fff;
+    padding: 2px;
+}
+
+.content_about h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+
+.content_about span{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    background-color: #777;
+    width: 80%;
+    height: 0.7px;
+}
+
+.content_about p{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
+.link_about{
+    margin: 15px 0;
+}
+
+.link_about li{
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    border: 2px solid #4158D0;
+    list-style: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.link_about li a{
+    color: #4158D0;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link_about li:hover{
+    border-color: #0a8439;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 3px;
+    background: #0a8439;
+    margin: 0 auto;
+}
+
+.icons_about{
+    display: flex;
+    padding: 15px 0;
+}
+
+.icons_about li{
+    display: block;
+    padding: 5px;
+}
+
+.icons_about li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+
+.icons_about  li:hover{
+    color: #0a8439;
+    cursor: pointer;
+}
+
+
+@media(max-width: 900px){
+    .section_about{
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+
+    .image_about{
+        height: 100vh;
+        border-radius: none;
+    }
+
+    .image_about img{
+        height: 30vh;
+    }
+
+    .content_about{
+        height: 100vh;
+        border-radius: none;
+    }
+
+    .content_about h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .content_about span{
+        margin: 20px 0;
+    }
+
+    .content_about p{
+        font-size: 1rem;
+    }
+
+    .link_about li{
+        width: 120px;
+    }
+
+    .icons_about li i{
+        font-size: 22px;
+    }
+}

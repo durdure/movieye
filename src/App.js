@@ -6,6 +6,7 @@ import SinglePage from "./components/watch/singlepage";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
+import About from "./components/about/About";
 
 
 
@@ -22,6 +23,10 @@ const router= createBrowserRouter(
     {
       path:"/contact",
       element:<Contact/>,
+    },
+    {
+      path:'/about',
+      element:<About/>,
     }
   ]
 );
