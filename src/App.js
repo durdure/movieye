@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
+import Loginform from "./components/loginForm/Loginform";
 
 
 
@@ -27,7 +28,16 @@ const router= createBrowserRouter(
     {
       path:'/about',
       element:<About/>,
-    }
+    },
+    {
+      path: '/login',
+      element: < Loginform/>,
+    },
+    {
+      path: '*',
+      element: <div>404</div>,
+    },
+    
   ]
 );
 

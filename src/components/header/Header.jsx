@@ -76,7 +76,9 @@ const Header = () => {
             
            
             
-            <button>LogIn</button>
+            <button>
+              <a href="./login">LogIn</a>
+              </button>
           </div>
         </div>
       </header>
