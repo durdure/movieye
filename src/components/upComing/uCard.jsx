@@ -9,7 +9,7 @@ const UCard = ({item: {id, cover, name, time }}) => {
                 <div className="card-content">
                  <h2>{name}</h2>
                     <p>{time}</p>
-                    <a href="#">
+                    <a href="/play">
                         <span class="material-symbols-outlined">
                             <button className="button-card">
                                 Play now

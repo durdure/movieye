@@ -7,7 +7,8 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
-import Loginform from "./components/loginForm/Loginform";
+import PlayPage from "./components/playnow/PlayPage";
+
 
 
 
@@ -30,8 +31,8 @@ const router= createBrowserRouter(
       element:<About/>,
     },
     {
-      path: '/login',
-      element: < Loginform/>,
+      path:'/play',
+      element:<PlayPage/>
     },
     {
       path: '*',

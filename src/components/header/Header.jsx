@@ -73,12 +73,6 @@ const Header = () => {
                 margin: "0px",
                 display: "flex",
               }}><i className='fas fa-user' ></i></a>
-            
-           
-            
-            <button>
-              <a href="./login">LogIn</a>
-              </button>
           </div>
         </div>
       </header>
